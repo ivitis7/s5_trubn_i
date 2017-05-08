@@ -165,12 +165,6 @@ Wire Wire Line
 Wire Wire Line
 	5890 1705 5950 1705
 Wire Wire Line
-	5950 1705 5950 4395
-Wire Wire Line
-	5950 4395 5945 4395
-Wire Wire Line
-	5945 4395 5945 4440
-Wire Wire Line
 	7950 1700 8025 1700
 Wire Wire Line
 	8025 1700 8025 4125
@@ -186,4 +180,10 @@ Wire Wire Line
 	10470 4250 10470 1680
 Wire Wire Line
 	10470 1680 10330 1680
+Wire Wire Line
+	5945 4395 5945 4440
+Wire Wire Line
+	5950 4395 5945 4395
+Wire Wire Line
+	5950 1705 5950 4395
 $EndSCHEMATC

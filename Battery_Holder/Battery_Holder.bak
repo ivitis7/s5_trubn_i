@@ -49,7 +49,7 @@ U 1 1 58DCBA79
 P 3550 3100
 F 0 "BT1" H 3650 3200 50  0000 L CNN
 F 1 "Battery_Cell" H 3650 3100 50  0000 L CNN
-F 2 "bibloteeka_footprint:Nr3_BAT-HLD-001-THM" H 4870 3375 50  0000 C CNN
+F 2 "bibloteeka_footprint:Nr2_battery_holder_1775485" H 4870 3375 50  0000 C CNN
 F 3 "" V 3550 3160 50  0000 C CNN
 	1    3550 3100
 	1    0    0    -1  
