@@ -68,12 +68,12 @@ $EndComp
 $Comp
 L GND #PWR02
 U 1 1 590F5689
-P 5540 4325
-F 0 "#PWR02" H 5540 4075 50  0001 C CNN
-F 1 "GND" H 5540 4175 50  0000 C CNN
-F 2 "" H 5540 4325 50  0000 C CNN
-F 3 "" H 5540 4325 50  0000 C CNN
-	1    5540 4325
+P 5500 4325
+F 0 "#PWR02" H 5500 4075 50  0001 C CNN
+F 1 "GND" H 5500 4175 50  0000 C CNN
+F 2 "" H 5500 4325 50  0000 C CNN
+F 3 "" H 5500 4325 50  0000 C CNN
+	1    5500 4325
 	1    0    0    -1  
 $EndComp
 Text HLabel 4245 3405 0    60   Input ~ 0
@@ -93,8 +93,6 @@ Wire Wire Line
 Wire Wire Line
 	6430 3975 6430 3930
 Wire Wire Line
-	5540 3975 5540 4325
-Wire Wire Line
 	6430 3345 6430 3730
 Wire Wire Line
 	7330 3345 6430 3345
@@ -105,12 +103,11 @@ Wire Wire Line
 Connection ~ 6430 3975
 Connection ~ 6430 3445
 Connection ~ 4585 3445
-Connection ~ 5540 3975
 Wire Wire Line
 	6430 3445 6430 3440
 Connection ~ 5500 3975
 Wire Wire Line
-	5500 3795 5500 3975
+	5500 3795 5500 4325
 Wire Wire Line
 	5050 3445 4585 3445
 Wire Wire Line
