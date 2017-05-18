@@ -115,7 +115,7 @@ U 1 1 58D397FE
 P 4450 3650
 F 0 "BT1" H 4550 3750 50  0000 L CNN
 F 1 "3V" H 4550 3650 50  0000 L CNN
-F 2 "Wire_Pads:SolderWirePad_2x_1-2mmDrill" V 4450 3710 50  0001 C CNN
+F 2 "bibloteeka_footprint:Nr2_battery_holder_1775485" V 4450 3710 50  0001 C CNN
 F 3 "https://www.schukat.com/schukat/schukat_cms_en.nsf/index/FrameView?OpenDocument&art=BR2/3A3V&wg=S1165" H 5200 5100 50  0001 C CNN
 	1    4450 3650
 	1    0    0    -1  
