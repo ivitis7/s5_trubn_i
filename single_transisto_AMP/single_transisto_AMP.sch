@@ -49,7 +49,7 @@ U 1 1 58D39509
 P 3100 3550
 F 0 "Q1" H 3300 3625 50  0000 L CNN
 F 1 "BC547" H 2750 3400 50  0000 L CNN
-F 2 "Transistors_OldSowjetAera:OldSowjetaera_Transistor_Type-II_BigPads" H 3400 4400 50  0001 L CIN
+F 2 "Transistors_OldSowjetAera:OldSowjetaera_Transistor_Type-II_SmallPads" H 3400 4400 50  0001 L CIN
 F 3 "https://www.sparkfun.com/datasheets/Components/BC546.pdf" H 3300 4500 50  0001 L CNN
 	1    3100 3550
 	1    0    0    -1  

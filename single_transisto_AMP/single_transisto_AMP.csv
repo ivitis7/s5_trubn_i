@@ -1,0 +1,9 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"C1";"CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal";1;"1uF";;;
+2;"C2";"CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal";1;"4.7 nF";;;
+3;"C3";"CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal";1;"10nF";;;
+4;"P1,P2,P3,P4";"1pin";4;"CONN_01X01";;;
+5;"R1";"R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal";1;"820 k";;;
+6;"R2";"R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal";1;"22ohms";;;
+7;"BT1";"Nr2_battery_holder_1775485";1;"3V";;;
+8;"Q1";"OldSowjetaera_Transistor_Type-II_SmallPads";1;"BC547";;;
