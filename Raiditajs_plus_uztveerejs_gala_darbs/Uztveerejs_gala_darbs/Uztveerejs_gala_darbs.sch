@@ -1,0 +1,1025 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:bc158
+LIBS:C_25V (Electrolytic)
+LIBS:l4-67wr1k
+LIBS:regulējama_pretestba
+LIBS:Uztveerejs_gala_darbs-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Uztvērējs"
+Date "2017-06-16"
+Rev "v1"
+Comp "Ventspils augstskola"
+Comment1 ""
+Comment2 "Ivars Trubņikovs"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R31
+U 1 1 5910CCC8
+P 1110 2325
+F 0 "R31" H 985 2405 50  0000 C CNN
+F 1 "27 KΩ" V 1110 2325 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1040 2325 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 1110 2325 50  0001 C CNN
+	1    1110 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 5910CF23
+P 1345 2260
+F 0 "R7" H 1265 2380 50  0000 C CNN
+F 1 "33 KΩ" V 1345 2260 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1275 2260 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 1345 2260 50  0001 C CNN
+	1    1345 2260
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 5910CF63
+P 1345 2595
+F 0 "R8" H 1250 2620 50  0000 C CNN
+F 1 "100 KΩ" V 1345 2595 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1275 2595 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 1345 2595 50  0001 C CNN
+	1    1345 2595
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 5910CFC2
+P 1345 3165
+F 0 "R9" H 1260 3105 50  0000 C CNN
+F 1 "22 KΩ" V 1345 3165 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1275 3165 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 1345 3165 50  0001 C CNN
+	1    1345 3165
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 5910D098
+P 2075 3400
+F 0 "R10" H 2205 3365 50  0000 C CNN
+F 1 "2.7 KΩ" V 2075 3400 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2005 3400 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 2075 3400 50  0001 C CNN
+	1    2075 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R12
+U 1 1 5910D0F7
+P 2815 2245
+F 0 "R12" H 2685 2255 50  0000 C CNN
+F 1 "15 KΩ" V 2815 2245 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2745 2245 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 2815 2245 50  0001 C CNN
+	1    2815 2245
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R13
+U 1 1 5910D1A1
+P 3240 2245
+F 0 "R13" H 3370 2240 50  0000 C CNN
+F 1 "470 KΩ" V 3240 2245 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3170 2245 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 3240 2245 50  0001 C CNN
+	1    3240 2245
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R11
+U 1 1 5910D254
+P 2710 2815
+F 0 "R11" V 2790 2815 50  0000 C CNN
+F 1 "1 KΩ" V 2710 2815 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2640 2815 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 2710 2815 50  0001 C CNN
+	1    2710 2815
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R14
+U 1 1 5910D348
+P 3365 2795
+F 0 "R14" V 3445 2795 50  0000 C CNN
+F 1 "1 MΩ" V 3365 2795 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3295 2795 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 3365 2795 50  0001 C CNN
+	1    3365 2795
+	0    1    1    0   
+$EndComp
+$Comp
+L R R15
+U 1 1 5910D50B
+P 3645 3325
+F 0 "R15" H 3760 3325 50  0000 C CNN
+F 1 "10 KΩ" V 3645 3325 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3575 3325 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 3645 3325 50  0001 C CNN
+	1    3645 3325
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R16
+U 1 1 5910D5CF
+P 4215 2595
+F 0 "R16" V 4130 2530 50  0000 C CNN
+F 1 "1 MΩ" V 4215 2595 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4145 2595 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 4215 2595 50  0001 C CNN
+	1    4215 2595
+	0    1    1    0   
+$EndComp
+$Comp
+L R R17
+U 1 1 5910D8B5
+P 4695 2595
+F 0 "R17" V 4605 2525 50  0000 C CNN
+F 1 "8.2 KΩ" V 4695 2595 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4625 2595 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 4695 2595 50  0001 C CNN
+	1    4695 2595
+	0    1    1    0   
+$EndComp
+$Comp
+L R R18
+U 1 1 5910D951
+P 5460 3355
+F 0 "R18" V 5540 3355 50  0000 C CNN
+F 1 "47 KΩ" V 5460 3355 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5390 3355 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 5460 3355 50  0001 C CNN
+	1    5460 3355
+	0    1    1    0   
+$EndComp
+$Comp
+L R R19
+U 1 1 5910DAD6
+P 5950 2865
+F 0 "R19" H 6085 2870 50  0000 C CNN
+F 1 "1 KΩ" V 5950 2865 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5880 2865 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 5950 2865 50  0001 C CNN
+	1    5950 2865
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R24
+U 1 1 5910DC40
+P 7485 2760
+F 0 "R24" H 7600 2740 50  0000 C CNN
+F 1 "22 KΩ" V 7485 2760 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7415 2760 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 7485 2760 50  0001 C CNN
+	1    7485 2760
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R22
+U 1 1 5910DCC1
+P 6790 2700
+F 0 "R22" H 6655 2725 50  0000 C CNN
+F 1 "10 KΩ" V 6790 2700 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6720 2700 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 6790 2700 50  0001 C CNN
+	1    6790 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R20
+U 1 1 5910DD77
+P 6320 4070
+F 0 "R20" V 6220 4075 50  0000 C CNN
+F 1 "4.7 KΩ" V 6320 4070 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6250 4070 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 6320 4070 50  0001 C CNN
+	1    6320 4070
+	0    1    1    0   
+$EndComp
+$Comp
+L R R21
+U 1 1 5910E2DB
+P 6480 4330
+F 0 "R21" H 6345 4390 50  0000 C CNN
+F 1 "15 KΩ" V 6480 4330 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6410 4330 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 6480 4330 50  0001 C CNN
+	1    6480 4330
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R23
+U 1 1 5910E35F
+P 6940 3830
+F 0 "R23" V 6845 3830 50  0000 C CNN
+F 1 "10 KΩ" V 6940 3830 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6870 3830 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 6940 3830 50  0001 C CNN
+	1    6940 3830
+	0    1    1    0   
+$EndComp
+$Comp
+L R R30
+U 1 1 5910E4B7
+P 8740 2050
+F 0 "R30" V 8820 2050 50  0000 C CNN
+F 1 "100 Ω" V 8740 2050 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8670 2050 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 8740 2050 50  0001 C CNN
+	1    8740 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R27
+U 1 1 5910E58F
+P 8120 3100
+F 0 "R27" V 8200 3100 50  0000 C CNN
+F 1 "2.7 KΩ" V 8120 3100 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8050 3100 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 8120 3100 50  0001 C CNN
+	1    8120 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R29
+U 1 1 5910E6C0
+P 9950 3600
+F 0 "R29" H 9810 3555 50  0000 C CNN
+F 1 "4.7 Ω" V 9950 3600 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9880 3600 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 9950 3600 50  0001 C CNN
+	1    9950 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R25
+U 1 1 5910E7A6
+P 7680 4020
+F 0 "R25" V 7760 4020 50  0000 C CNN
+F 1 "2.7 KΩ" V 7680 4020 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7610 4020 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 7680 4020 50  0001 C CNN
+	1    7680 4020
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R28
+U 1 1 5910E9A9
+P 8135 3855
+F 0 "R28" V 8215 3855 50  0000 C CNN
+F 1 "1 KΩ" V 8135 3855 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8065 3855 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 8135 3855 50  0001 C CNN
+	1    8135 3855
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED_ALT LED1
+U 1 1 5910F893
+P 1110 2955
+F 0 "LED1" V 1220 3090 50  0000 C CNN
+F 1 "LED_ALT" H 1110 2855 50  0001 C CNN
+F 2 "LEDs:LED_D5.0mm_FlatTop" H 1110 2955 50  0001 C CNN
+F 3 "http://eu.mouser.com/ProductDetail/Parallax/350-00006/?qs=sGAEpiMZZMvHYEB9WUp7EgYHTdKBdR0cEhaxn6KAmDY%3d" H 1110 2955 50  0001 C CNN
+	1    1110 2955
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D_Schottky_ALT ZD1
+U 1 1 5910FB74
+P 4135 3155
+F 0 "ZD1" V 4095 3275 50  0000 C CNN
+F 1 "D_Schottky_ALT" H 4135 3055 50  0001 C CNN
+F 2 "Diodes_THT:D_A-405_P12.70mm_Horizontal" H 4135 3155 50  0001 C CNN
+F 3 "http://eu.mouser.com/ProductDetail/Microsemi/1N937A/?qs=sGAEpiMZZMtQ8nqTKtFS%2fEsjzpfGwHO1tSZ5%2fe819gGf40NniFU9yQ%3d%3d" H 4135 3155 50  0001 C CNN
+	1    4135 3155
+	0    1    1    0   
+$EndComp
+$Comp
+L C C4
+U 1 1 5910FDAB
+P 1575 2795
+F 0 "C4" H 1530 2565 50  0000 L CNN
+F 1 "100pf" H 1600 2695 50  0001 L CNN
+F 2 "Capacitors_THT:C_Disc_D14.5mm_W5.0mm_P7.50mm" H 1613 2645 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/561r-239806.pdf" H 1575 2795 50  0001 C CNN
+	1    1575 2795
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 5910FF1C
+P 2130 2425
+F 0 "C6" V 1970 2395 50  0000 L CNN
+F 1 "3,3 pf" H 2155 2325 50  0001 L CNN
+F 2 "Capacitors_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm" H 2168 2275 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/561r-239806.pdf" H 2130 2425 50  0001 C CNN
+	1    2130 2425
+	0    1    1    0   
+$EndComp
+$Comp
+L C C7
+U 1 1 5911004F
+P 2225 3140
+F 0 "C7" V 2060 3105 50  0000 L CNN
+F 1 "3.3pf" H 2250 3040 50  0001 L CNN
+F 2 "Capacitors_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm" H 2263 2990 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/561r-239806.pdf" H 2225 3140 50  0001 C CNN
+	1    2225 3140
+	0    1    1    0   
+$EndComp
+$Comp
+L C C5
+U 1 1 591102C3
+P 1920 3360
+F 0 "C5" H 1705 3310 50  0000 L CNN
+F 1 "0.02 uf" H 1945 3260 50  0001 L CNN
+F 2 "Capacitors_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm" H 1958 3210 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/561r-239806.pdf" H 1920 3360 50  0001 C CNN
+	1    1920 3360
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C8
+U 1 1 591103AE
+P 2820 3475
+F 0 "C8" H 2595 3415 50  0000 L CNN
+F 1 "0.001 uf" H 2845 3375 50  0001 L CNN
+F 2 "Capacitors_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm" H 2858 3325 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/561r-239806.pdf" H 2820 3475 50  0001 C CNN
+	1    2820 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C9
+U 1 1 59110478
+P 3040 2595
+F 0 "C9" V 2885 2555 50  0000 L CNN
+F 1 "0.002 uf" H 3065 2495 50  0001 L CNN
+F 2 "Capacitors_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm" H 3078 2445 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/561r-239806.pdf" H 3040 2595 50  0001 C CNN
+	1    3040 2595
+	0    1    1    0   
+$EndComp
+$Comp
+L C C11
+U 1 1 59110591
+P 3965 2795
+F 0 "C11" V 3810 2710 50  0000 L CNN
+F 1 "0.002uf" H 3990 2695 50  0001 L CNN
+F 2 "Capacitors_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm" H 4003 2645 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/561r-239806.pdf" H 3965 2795 50  0001 C CNN
+	1    3965 2795
+	0    1    1    0   
+$EndComp
+$Comp
+L C C10
+U 1 1 591108B1
+P 3810 3325
+F 0 "C10" H 3835 3425 50  0000 L CNN
+F 1 "0.002uf" H 3835 3225 50  0001 L CNN
+F 2 "Capacitors_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm" H 3848 3175 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/561r-239806.pdf" H 3810 3325 50  0001 C CNN
+	1    3810 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C13
+U 1 1 591109F0
+P 5305 2555
+F 0 "C13" H 5330 2655 50  0000 L CNN
+F 1 "0.02uf" H 5330 2455 50  0001 L CNN
+F 2 "Capacitors_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm" H 5343 2405 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/561r-239806.pdf" H 5305 2555 50  0001 C CNN
+	1    5305 2555
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C14
+U 1 1 59110EDA
+P 5950 4330
+F 0 "C14" H 5680 4330 50  0000 L CNN
+F 1 "0.04 uf" H 5975 4230 50  0001 L CNN
+F 2 "Capacitors_THT:C_Rect_L11.5mm_W4.0mm_P10.00mm_MKT" H 5988 4180 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/561r-239806.pdf" H 5950 4330 50  0001 C CNN
+	1    5950 4330
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C17
+U 1 1 59111578
+P 8270 2790
+F 0 "C17" V 8095 2765 50  0000 L CNN
+F 1 "0.002uf" H 8295 2690 50  0001 L CNN
+F 2 "Capacitors_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm" H 8308 2640 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/561r-239806.pdf" H 8270 2790 50  0001 C CNN
+	1    8270 2790
+	0    1    1    0   
+$EndComp
+$Comp
+L C C18
+U 1 1 591116B6
+P 8435 3075
+F 0 "C18" H 8460 3175 50  0000 L CNN
+F 1 "0.04uf" H 8460 2975 50  0001 L CNN
+F 2 "Capacitors_THT:C_Rect_L11.5mm_W4.0mm_P10.00mm_MKT" H 8473 2925 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/561r-239806.pdf" H 8435 3075 50  0001 C CNN
+	1    8435 3075
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC237 T4
+U 1 1 59111848
+P 1820 2945
+F 0 "T4" H 2020 3020 50  0000 L CNN
+F 1 "BF195" H 2020 2945 50  0001 L CNN
+F 2 "uzveerejs_raidiitajs_footprinti:BC158" H 2020 2870 50  0001 L CIN
+F 3 "http://www.elenota.pl/datasheet-pdf/60521/CEMI/BF195" H 1820 2945 50  0001 L CNN
+	1    1820 2945
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC158 T5
+U 1 1 59112466
+P 3440 2595
+F 0 "T5" H 3660 2710 50  0000 L CNN
+F 1 "BC158" H 3390 2960 50  0001 L CNN
+F 2 "uzveerejs_raidiitajs_footprinti:BC158" H 3670 2615 50  0001 L CIN
+F 3 "http://www.semicon-data.com/pdf/SH/BC/BC158.pdf" H 3440 2595 50  0001 L CNN
+	1    3440 2595
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC158 T7
+U 1 1 591128B6
+P 5850 3355
+F 0 "T7" H 6070 3470 50  0000 L CNN
+F 1 "BC158" H 5620 3530 50  0001 L CNN
+F 2 "uzveerejs_raidiitajs_footprinti:BC158" H 6080 3375 50  0001 L CIN
+F 3 "http://www.semicon-data.com/pdf/SH/BC/BC158.pdf" H 5850 3355 50  0001 L CNN
+	1    5850 3355
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC237 T8
+U 1 1 59113BC9
+P 6690 4070
+F 0 "T8" H 6890 4145 50  0000 L CNN
+F 1 "BC148" H 6890 4070 50  0001 L CNN
+F 2 "uzveerejs_raidiitajs_footprinti:BC158" H 6890 3995 50  0001 L CIN
+F 3 "http://www.semicon-data.com/pdf/SH/BC/BC158.pdf" H 6690 4070 50  0001 L CNN
+	1    6690 4070
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC237 T9
+U 1 1 591142BA
+P 7385 3830
+F 0 "T9" H 7585 3905 50  0000 L CNN
+F 1 "BC148" H 7585 3830 50  0001 L CNN
+F 2 "uzveerejs_raidiitajs_footprinti:BC158" H 7585 3755 50  0001 L CIN
+F 3 "http://www.semicon-data.com/pdf/SH/BC/BC158.pdf" H 7385 3830 50  0001 L CNN
+	1    7385 3830
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC237 T10
+U 1 1 59114C44
+P 8335 3480
+F 0 "T10" H 8535 3555 50  0000 L CNN
+F 1 "BEL187" H 8535 3480 50  0001 L CNN
+F 2 "uzveerejs_raidiitajs_footprinti:BC158" H 8535 3405 50  0001 L CIN
+F 3 "http://www.datasheet4u.com/datasheet/B/E/L/BEL187_BharatElectronics.pdf.html" H 8335 3480 50  0001 L CNN
+	1    8335 3480
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC237 T6
+U 1 1 59115939
+P 4340 2795
+F 0 "T6" H 4540 2870 50  0000 L CNN
+F 1 "BC148" H 4540 2795 50  0001 L CNN
+F 2 "uzveerejs_raidiitajs_footprinti:BC158" H 4540 2720 50  0001 L CIN
+F 3 "http://www.semicon-data.com/pdf/SH/BC/BC158.pdf" H 4340 2795 50  0001 L CNN
+	1    4340 2795
+	1    0    0    -1  
+$EndComp
+$Comp
+L CTRIM VC2
+U 1 1 5911685E
+P 1740 2595
+F 0 "VC2" V 1605 2415 50  0000 C CNN
+F 1 "CTRIM" H 1860 2455 50  0001 C CNN
+F 2 "uzveerejs_raidiitajs_footprinti:VC-trimmer_to-100pf" H 1740 2595 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/bfc2809070-740912.pdf" H 1740 2595 50  0001 C CNN
+	1    1740 2595
+	0    1    1    0   
+$EndComp
+$Comp
+L L L3
+U 1 1 59110190
+P 2130 2595
+F 0 "L3" V 2230 2605 50  0000 C CNN
+F 1 "L" V 2205 2595 50  0001 C CNN
+F 2 "Inductors:INDUCTOR_V" H 2130 2595 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/390/RCH-895-465803.pdf" H 2130 2595 50  0001 C CNN
+	1    2130 2595
+	0    1    1    0   
+$EndComp
+$Comp
+L Earth #ground01
+U 1 1 591128F5
+P 10360 4735
+F 0 "#ground01" H 10360 4485 50  0001 C CNN
+F 1 "Earth" H 10360 4585 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x01_Pitch1.27mm" H 10360 4735 50  0001 C CNN
+F 3 "" H 10360 4735 50  0000 C CNN
+	1    10360 4735
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #ground02
+U 1 1 59113401
+P 4305 2425
+F 0 "#ground02" H 4305 2175 50  0001 C CNN
+F 1 "Earth" H 4305 2275 50  0001 C CNN
+F 2 "" H 4305 2425 50  0000 C CNN
+F 3 "" H 4305 2425 50  0000 C CNN
+	1    4305 2425
+	1    0    0    -1  
+$EndComp
+Text Label 10520 2215 0    60   ~ 0
+D.C
+$Comp
+L Speaker LS1
+U 1 1 591151CD
+P 10135 2975
+F 0 "LS1" H 10170 2745 50  0000 R CNN
+F 1 "Speaker" H 10185 3125 50  0001 R CNN
+F 2 "Connectors:AK300-2" H 10135 2775 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/670/cms-23558n-l152-959413.pdf" H 10125 2925 50  0001 C CNN
+	1    10135 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L +9V #PWR03
+U 1 1 5911477E
+P 10345 2050
+F 0 "#PWR03" H 10345 1900 50  0001 C CNN
+F 1 "+9V" V 10455 2095 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x01_Pitch1.27mm" H 10345 2050 50  0001 C CNN
+F 3 "" H 10345 2050 50  0000 C CNN
+	1    10345 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Antenna AE1
+U 1 1 591166A9
+P 1110 1850
+F 0 "AE1" H 1035 1925 50  0001 R CNN
+F 1 "Antenna" H 1480 1705 50  0000 R CNN
+F 2 "uzveerejs_raidiitajs_footprinti:Antenna_BNC_Connectors_50_Ohm" H 1110 1850 50  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Catalog+Section%7F1307191_BNC_Connectors%7F0307%7Fpdf%7FEnglish%7FENG_CS_1307191_BNC_Connectors_0307.pdf%7F1274668-1" H 1110 1850 50  0001 C CNN
+	1    1110 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R26
+U 1 1 5910E83F
+P 7830 3480
+F 0 "R26" V 7740 3485 50  0000 C CNN
+F 1 "2.7 KΩ" V 7830 3480 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7760 3480 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716725.pdf?_ga=2.143134645.102896835.1494448041-1293983397.1494436209" H 7830 3480 50  0001 C CNN
+	1    7830 3480
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1110 2050 8590 2050
+Wire Wire Line
+	1345 2445 1345 2410
+Wire Wire Line
+	1345 2110 1345 2050
+Connection ~ 1345 2050
+Wire Wire Line
+	1110 2050 1110 2175
+Wire Wire Line
+	1110 2805 1110 2475
+Wire Wire Line
+	1345 2945 1620 2945
+Wire Wire Line
+	1345 2745 1345 3015
+Connection ~ 1575 2945
+Connection ~ 1345 2945
+Wire Wire Line
+	1920 2745 1920 2595
+Wire Wire Line
+	1890 2595 1980 2595
+Wire Wire Line
+	1590 2595 1575 2595
+Wire Wire Line
+	1575 2595 1575 2645
+Wire Wire Line
+	1980 2595 1980 2425
+Connection ~ 1920 2595
+Wire Wire Line
+	1920 3145 2075 3145
+Wire Wire Line
+	1920 3145 1920 3210
+Wire Wire Line
+	2075 3140 2075 3250
+Connection ~ 2075 3145
+Wire Wire Line
+	2815 2095 2815 2050
+Connection ~ 2815 2050
+Wire Wire Line
+	3240 2095 3240 2050
+Connection ~ 3240 2050
+Wire Wire Line
+	2815 2395 2815 2595
+Wire Wire Line
+	3240 2395 3240 2595
+Wire Wire Line
+	3240 2595 3190 2595
+Wire Wire Line
+	3540 2395 3540 2050
+Connection ~ 3540 2050
+Wire Wire Line
+	3515 2795 3815 2795
+Wire Wire Line
+	3215 2795 3215 2595
+Connection ~ 3215 2595
+Connection ~ 3540 2795
+Wire Wire Line
+	4140 2795 4115 2795
+Wire Wire Line
+	3810 3175 3810 2795
+Connection ~ 3810 2795
+Wire Wire Line
+	3645 3175 3645 2795
+Connection ~ 3645 2795
+Wire Wire Line
+	4365 2595 4545 2595
+Connection ~ 4440 2595
+Wire Wire Line
+	4305 2050 4305 2085
+Wire Wire Line
+	4040 2740 4130 2740
+Wire Wire Line
+	5305 2705 5305 3355
+Wire Wire Line
+	5100 3355 5310 3355
+Wire Wire Line
+	5305 2405 5305 2050
+Connection ~ 5305 2050
+Wire Wire Line
+	5100 2405 5100 2050
+Connection ~ 5100 2050
+Wire Wire Line
+	5100 2705 5100 3355
+Connection ~ 5305 3355
+Wire Wire Line
+	5650 3355 5610 3355
+Wire Wire Line
+	5950 3155 5950 3015
+Wire Wire Line
+	5950 2715 5950 2050
+Connection ~ 5950 2050
+Wire Wire Line
+	5950 3555 5950 4180
+Wire Wire Line
+	6170 4175 6170 4070
+Wire Wire Line
+	6490 4070 6470 4070
+Wire Wire Line
+	6480 4070 6480 4180
+Connection ~ 6480 4070
+Wire Wire Line
+	6790 2850 6790 3870
+Wire Wire Line
+	7185 3830 7090 3830
+Wire Wire Line
+	7485 3630 7485 2910
+Wire Wire Line
+	7485 2610 7485 2050
+Connection ~ 7485 2050
+Connection ~ 6790 3830
+Wire Wire Line
+	6790 2550 6790 2050
+Connection ~ 6790 2050
+Wire Wire Line
+	7485 3480 7680 3480
+Connection ~ 7485 3480
+Wire Wire Line
+	7680 3480 7680 3870
+Wire Wire Line
+	8135 3705 8135 3480
+Wire Wire Line
+	8135 3480 7980 3480
+Wire Wire Line
+	8135 4030 8135 4005
+Wire Wire Line
+	8420 2790 8435 2790
+Wire Wire Line
+	8120 2790 8120 2950
+Wire Wire Line
+	8120 3250 8120 3480
+Connection ~ 8120 3480
+Wire Wire Line
+	8435 3225 8435 3280
+Wire Wire Line
+	8435 2790 8435 2925
+Wire Wire Line
+	8825 3260 8435 3260
+Connection ~ 8435 3260
+Wire Wire Line
+	8825 2860 8435 2860
+Connection ~ 8435 2860
+Wire Wire Line
+	9935 2975 9715 2975
+Wire Wire Line
+	9715 2975 9715 2860
+Wire Wire Line
+	9715 2860 9625 2860
+Wire Wire Line
+	10345 2050 8890 2050
+Wire Wire Line
+	1110 4480 10360 4480
+Wire Wire Line
+	6170 4480 6170 4475
+Connection ~ 6170 4480
+Wire Wire Line
+	1110 4480 1110 3105
+Connection ~ 5950 4480
+Wire Wire Line
+	1345 3315 1345 4480
+Connection ~ 1345 4480
+Wire Wire Line
+	1920 3510 1920 4480
+Connection ~ 1920 4480
+Wire Wire Line
+	2075 3550 2075 4480
+Connection ~ 2075 4480
+Wire Wire Line
+	2820 3625 2820 4480
+Connection ~ 2820 4480
+Wire Wire Line
+	3645 3475 3645 4480
+Connection ~ 3645 4480
+Wire Wire Line
+	3810 3475 3810 4480
+Connection ~ 3810 4480
+Wire Wire Line
+	4135 3305 4135 4480
+Connection ~ 4135 4480
+Wire Wire Line
+	4440 2995 4440 4480
+Connection ~ 4440 4480
+Wire Wire Line
+	10360 4335 10360 4735
+Connection ~ 6480 4480
+Wire Wire Line
+	9935 3075 9935 3450
+Wire Wire Line
+	9935 3450 9950 3450
+Wire Wire Line
+	9950 3750 9950 4480
+Connection ~ 9950 4480
+Wire Wire Line
+	9625 3260 9625 4480
+Connection ~ 9625 4480
+Wire Wire Line
+	8435 3680 8435 4480
+Connection ~ 8435 4480
+Wire Wire Line
+	8135 4330 8135 4480
+Connection ~ 8135 4480
+Wire Wire Line
+	7680 4170 7680 4480
+Connection ~ 7680 4480
+Wire Wire Line
+	7485 4030 7485 4480
+Connection ~ 7485 4480
+Wire Wire Line
+	6790 4270 6790 4480
+Connection ~ 6790 4480
+Wire Wire Line
+	8940 2050 8940 2735
+Connection ~ 8940 2050
+Wire Wire Line
+	2820 2595 2820 3325
+Wire Wire Line
+	4065 2595 4040 2595
+Wire Wire Line
+	4040 2595 4040 2740
+Wire Wire Line
+	2815 2595 2890 2595
+Wire Wire Line
+	4305 2385 4305 2425
+Connection ~ 4305 2050
+$Comp
+L PWR_FLAG #FLG04
+U 1 1 591C68DD
+P 10280 2020
+F 0 "#FLG04" H 10280 2115 50  0001 C CNN
+F 1 "PWR_FLAG" H 10280 2200 50  0000 C CNN
+F 2 "" H 10280 2020 50  0000 C CNN
+F 3 "" H 10280 2020 50  0000 C CNN
+	1    10280 2020
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG05
+U 1 1 591C6997
+P 3830 2355
+F 0 "#FLG05" H 3830 2450 50  0001 C CNN
+F 1 "PWR_FLAG" H 3730 2570 50  0000 C CNN
+F 2 "" H 3830 2355 50  0000 C CNN
+F 3 "" H 3830 2355 50  0000 C CNN
+	1    3830 2355
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4305 2410 3830 2410
+Wire Wire Line
+	3830 2410 3830 2355
+Connection ~ 4305 2410
+Wire Wire Line
+	10280 2020 10280 2050
+Connection ~ 10280 2050
+$Comp
+L CP1 C16
+U 1 1 5910F966
+P 8135 4180
+F 0 "C16" H 8160 4280 50  0000 L CNN
+F 1 "100uf" H 8160 4080 50  0001 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 8135 4180 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/293/e-ubw-884080.pdf" H 8135 4180 50  0001 C CNN
+	1    8135 4180
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C15
+U 1 1 59126EB6
+P 6170 4325
+F 0 "C15" H 6195 4425 50  0000 L CNN
+F 1 "22uf" H 6195 4225 50  0001 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 6170 4325 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/293/e-ubw-884080.pdf" H 6170 4325 50  0001 C CNN
+	1    6170 4325
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C12
+U 1 1 5910E387
+P 4305 2235
+F 0 "C12" H 4035 2295 50  0000 L CNN
+F 1 "220uf" H 4330 2135 50  0001 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 4305 2235 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/293/e-ubw-884080.pdf" H 4305 2235 50  0001 C CNN
+	1    4305 2235
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5045 2615 4930 2615
+Wire Wire Line
+	4930 2615 4930 2595
+Wire Wire Line
+	4930 2595 4845 2595
+$Comp
+L Transformer_SP_1S X1
+U 1 1 59263A01
+P 9225 3060
+F 0 "X1" H 9225 3310 50  0000 C CNN
+F 1 "Transformer_SP_1S" H 9225 2760 50  0001 C CNN
+F 2 "uzveerejs_raidiitajs_footprinti:transformators_LM-LP-1002L" H 9225 3060 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/54/LMNPLP-42750.pdf" H 9225 3060 50  0001 C CNN
+	1    9225 3060
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8940 2735 8790 2735
+Wire Wire Line
+	8790 2735 8790 3060
+Wire Wire Line
+	8790 3060 8825 3060
+$Comp
+L LTRIM L3-reg1
+U 1 1 5926AB4D
+P 2490 2595
+F 0 "L3-reg1" V 2415 2595 50  0000 C CNN
+F 1 "LTRIM" V 2615 2595 50  0001 C CNN
+F 2 "uzveerejs_raidiitajs_footprinti:10mm_coil" H 2490 2595 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/597/uni10-463412.pdf" H 2490 2595 50  0001 C CNN
+	1    2490 2595
+	0    1    1    0   
+$EndComp
+Connection ~ 2820 2595
+Wire Wire Line
+	2340 2595 2280 2595
+Wire Wire Line
+	2640 2595 2710 2595
+Wire Wire Line
+	2710 2595 2710 2665
+Wire Wire Line
+	2280 2425 2675 2425
+Wire Wire Line
+	2675 2425 2675 2595
+Connection ~ 2675 2595
+Wire Wire Line
+	2375 3140 2375 2690
+Wire Wire Line
+	2375 2690 2665 2690
+Wire Wire Line
+	2665 2690 2665 2640
+Wire Wire Line
+	2665 2640 2710 2640
+Connection ~ 2710 2640
+Wire Wire Line
+	2710 2965 2710 2985
+Wire Wire Line
+	2710 2985 2820 2985
+Connection ~ 2820 2985
+$Comp
+L regulējama_pretestba L4
+U 1 1 594669AF
+P 5100 2555
+F 0 "L4" V 4980 2675 50  0000 C CNN
+F 1 "regulējama_pretestba" V 5225 2555 50  0001 C CNN
+F 2 "uzveerejs_raidiitajs_footprinti:potentiometer_67W" H 5100 2555 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/414/ttelectronics_67-559248.pdf" H 5100 2555 50  0001 C CNN
+	1    5100 2555
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 9v1
+U 1 1 5946FDC0
+P 10325 2355
+F 0 "9v1" H 10325 2455 50  0000 C CNN
+F 1 "CONN_01X01" V 10425 2355 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x01_Pitch1.27mm" H 10325 2355 50  0001 C CNN
+F 3 "" H 10325 2355 50  0000 C CNN
+	1    10325 2355
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 ground1
+U 1 1 5947032D
+P 10600 4335
+F 0 "ground1" H 10615 4450 50  0000 C CNN
+F 1 "ground" V 10700 4335 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x01_Pitch1.27mm" H 10600 4335 50  0001 C CNN
+F 3 "" H 10600 4335 50  0000 C CNN
+	1    10600 4335
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 4335 10360 4335
+Connection ~ 10360 4480
+Wire Wire Line
+	10125 2355 10125 2050
+Connection ~ 10125 2050
+Wire Wire Line
+	4130 2740 4130 3005
+Connection ~ 4130 2795
+Wire Wire Line
+	4130 3005 4135 3005
+$EndSCHEMATC

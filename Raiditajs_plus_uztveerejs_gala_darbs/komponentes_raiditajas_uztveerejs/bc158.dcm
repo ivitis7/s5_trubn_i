@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BC158
+D 45V Vce, 0.1A Ic, PNP Small Signal Transistor, TO-92
+K BC557 PNP Transistor
+F http://www.fairchildsemi.com/ds/BC/BC557.pdf
+$ENDCMP
+#
+#End Doc Library
